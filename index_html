@@ -1,0 +1,43 @@
+<html>
+<head>
+  <title>TicketzHub</title>
+</head>
+<body>
+  <h1> Welcom to the Website of
+    TicketzHub!</h1>
+
+    <table summary       = "HOME PAGE" >
+      <!--#include virtual ="common/logo.html"-->
+      <tr>
+        <td>2980 Hamill Avenue
+          <br />
+          Los Angeles, CA 90014
+          <br />
+          Phone: 949-435-7872
+          <br />
+          fax: 949-111-1111
+        </td>
+      </tr>
+      <tr>
+        <td><p>This is our first foray onto the World Wide Web.
+          We are a small company dedicated to provide a place
+          to buy and sell sports tickets through the world wide web.
+          Fast way to find a tickets. Easy way to sell a ticket,
+          even if it is last minutes. We got you cover.
+          We guarantee quick and hassle free transactions.
+          Everything is simple here.
+          <br />
+          We sell all kinds of sports tickets:</p>
+          <ul>
+            <li>NBA tickets</li>
+            <li>NFL tickets</li>
+            <li>MLB tickets</li>
+          </ul>
+        </td>
+        <td><img src= "images/tickets.jpg" alt = "tickets" />
+        </td>
+      </tr>
+    </table>
+
+  </body>
+  </html>
