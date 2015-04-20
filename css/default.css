@@ -29,6 +29,7 @@ text-align: right;
 
 div#mainMenu, #footer {
 clear: both;
+width: 100%;
 height: 20px;
 }
 
@@ -36,6 +37,16 @@ ul#mainLinks li, ul#footerLinks li{
 float: left;
 width: 150px;
 padding: 5px 0;
+border-right: 1px solid #FFF;
+background-color: #808080;
+text-align: center;
+} 
+
+ul#footerName li{
+float: left;
+font-size: 11px;
+color: #FFF;
+padding: 5px 100px;
 border-right: 1px solid #FFF;
 background-color: #808080;
 text-align: center;
