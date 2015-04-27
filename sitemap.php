@@ -11,11 +11,11 @@
         </td>
       </tr>
       <tr>
-        <td width="20%"><a href="index.html">Home</a></td>
-        <td width="20%"><a href="buy.html">Buy Now</a></td>
-        <td width="20%"><a href="products.html">Products and Services</a></td>
-        <td width="20%"><a href="yourtickets.html">Your Tickets</a></td>
-        <td width="20%"><a href="about.html">About Us</a></td>
+        <td width="20%"><a href="index.php">Home</a></td>
+        <td width="20%"><a href="buy.php">Buy Now</a></td>
+        <td width="20%"><a href="products.php">Products and Services</a></td>
+        <td width="20%"><a href="yourtickets.php">Your Tickets</a></td>
+        <td width="20%"><a href="about.php">About Us</a></td>
       </tr>
       <tr>
         <td colspan="5">
@@ -23,21 +23,21 @@
             <tr>
               <td valign="top">
                 <ol>
-                  <li><a href="buy.html">Buy Now</a></li>
+                  <li><a href="buy.php">Buy Now</a></li>
                   <li>
-                    <a href="products.html">Products and Services</a>
+                    <a href="products.php">Products and Services</a>
                     <ul>
-                      <li><a href="featured.html">Featured Products</a></li>
-                      <li><a href="services.html">Services</a></li>
-                      <li><a href="suppliers.html">Suppliers</a></li>
+                      <li><a href="featured.php">Featured Products</a></li>
+                      <li><a href="services.php">Services</a></li>
+                      <li><a href="suppliers.php">Suppliers</a></li>
                     </ul>
                   </li>
                   <li>
-                    <a href="yourhealth.html">Your Health</a>
+                    <a href="yourhealth.php">Your Health</a>
                     <ul>
-                      <li><a href="expert.html">Ask an Expert</a></li>
-                      <li><a href="tools.html">Tools &amp; Resources</a></li>
-                      <li><a href="links.html">Useful Links</a></li>
+                      <li><a href="expert.php">Ask an Expert</a></li>
+                      <li><a href="tools.php">Tools &amp; Resources</a></li>
+                      <li><a href="links.php">Useful Links</a></li>
                     </ul>
                   </li>
                 </ol>
@@ -45,14 +45,13 @@
               <td valign="top">
                 <ol start="4">
                   <li>
-                    <a href="about.html">About us</a>
+                    <a href="about.php">About us</a>
                     <ul>
-                      <li><a href="vision.html">Vision and Mission</a></li>
-                      <li><a href="locations.html">Our Locations</a></li>
-                      <li><a href="contact.html">Contact Us</a></li>
-                      <li><a href="employment.html">Employment
-                      Opportunities</a></li>
-                      <li><a href="news.html">News Archive</a></li>
+                      <li><a href="vision.php">Vision and Mission</a></li>
+                      <li><a href="locations.php">Our Locations</a></li>
+                      <li><a href="contact.php">Contact Us</a></li>
+                      <li><a href="employment.hphptml">Employment
+                      <li><a href="news.php">News Archive</a></li>
                     </ul>
                   </li>
                 </ol>
@@ -64,8 +63,8 @@
       <tr>
         <td colspan="3">Nature's Source &copy; 2009 Porter Scobey and Pawan
         Lingras</td>
-        <td><a href="contact.html">Contact Us</a></td>
-        <td><a href="sitemap.html">Site Map</a></td>
+        <td><a href="contact.php">Contact Us</a></td>
+        <td><a href="sitemap.php">Site Map</a></td>
       </tr>
     </table>
   </body>

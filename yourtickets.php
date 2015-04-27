@@ -11,17 +11,17 @@
         </td>
       </tr>
       <tr>
-        <td width="20%"><a href="index.html">Home</a></td>
-        <td width="20%"><a href="buy.html">Buy Now</a></td>
-        <td width="20%"><a href="products.html">Products and Services</a></td>
-        <td width="20%"><a href="yourhealth.html">Your Health</a></td>
-        <td width="20%"><a href="about.html">About Us</a></td>
+        <td width="20%"><a href="index.php">Home</a></td>
+        <td width="20%"><a href="buy.php">Buy Now</a></td>
+        <td width="20%"><a href="products.php">Products and Services</a></td>
+        <td width="20%"><a href="yourhealth.php">Your Health</a></td>
+        <td width="20%"><a href="about.php">About Us</a></td>
       </tr>
       <tr>
         <td valign="top">
-          <p><a href="expert.html">Ask an expert</a><br />
-          <a href="tools.html">Tools &amp; Resources<br />
-          <a href="links.html">Useful Links</a></p>
+          <p><a href="expert.php">Ask an expert</a><br />
+          <a href="tools.php">Tools &amp; Resources<br />
+          <a href="links.php">Useful Links</a></p>
         </td>
         <td colspan="4">
           <p>This section will give you a chance to obtain information about
@@ -39,8 +39,8 @@
       <tr>
         <td colspan="3">Nature's Source &copy; 2009 Porter Scobey and Pawan
         Lingras</td>
-        <td><a href="contact.html">Contact Us</a></td>
-        <td><a href="sitemap.html">Site Map</a></td>
+        <td><a href="contact.php">Contact Us</a></td>
+        <td><a href="sitemap.php">Site Map</a></td>
       </tr>
     </table>
   </body>

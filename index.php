@@ -21,11 +21,11 @@
 
       <div id = "mainMenu">
         <ul id="mainLinks">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="buy.html">Buy Now</a></li>
-          <li><a href="products.html">Products and Services</a></li>
-          <li><a href="yourtickets.html">Your Tickets</a></li>
-          <li><a href="about.html">About Us</a></li>
+          <li><a href="index.php">Home</a></li>
+          <li><a href="buy.php">Buy Now</a></li>
+          <li><a href="products.php">Products and Services</a></li>
+          <li><a href="yourtickets.php">Your Tickets</a></li>
+          <li><a href="about.php">About Us</a></li>
         </ul>
 
       </div>
@@ -60,8 +60,8 @@
           <li>TicketzHub &copy; 2015 Hua Hsin and Edmond Ye</li>
         </ul>
         <ul id="footerLinks">
-          <li><a href="contact.html">Contact Us</a></li>
-          <li><a href="sitemap.html">Site Map</a></li>
+          <li><a href="contact.php">Contact Us</a></li>
+          <li><a href="sitemap.php">Site Map</a></li>
         </ul>
       </div>
 
