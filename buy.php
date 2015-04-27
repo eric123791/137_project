@@ -1,35 +1,33 @@
 <!-- buy.php -->
 <html>
-  <head>
-    <title>TicketzHub - Our E-Store</title>
-  </head>
-  <body>
-    <table summary="Our E-Store">
-      <tr>
-        <td colspan="5">
-          <img src="images/logo.png" alt="TicketzHub" />
-        </td>
-      </tr>
-      <tr>
-        <td width="20%"><a href="index.php">Home</a></td>
-        <td width="20%"><a href="buy.php">Buy Now</a></td>
-        <td width="20%"><a href="products.php">Products and Services</a></td>
-        <td width="20%"><a href="yourtickets.php">Your Tickets</a></td>
-        <td width="20%"><a href="about.php">About Us</a></td>
-      </tr>
-      <tr>
-        <td colspan="5">
-          <p>Keep watching this space for our e-store. You will soon be able
-          to purchase any of our products on-line and have them shipped to
-          your home or business. We will also be interested to receive your
-          feedback for suggested improvements as our site develops.</p>
-        </td>
-      </tr>
-      <tr>
-        <td colspan="3">TicketzHub &copy; 2015 Hua Hsin and Edmond Ye </td>
-        <td><a href="contact.php">Contact Us</a></td>
-        <td><a href="sitemap.php">Site Map</a></td>
-      </tr>
-    </table>
+<head>
+  <title>TicketzHub - Our E-Store</title>
+  <link rel="stylesheet" type="text/css" href="css/default.css" />
+</head>
+<body>
+  <div id = "page">
+    <div id = "header">
+      <!--#include virtual="common/logo.php"-->
+      <div id="address">
+        2980 Hamill Avenue<br />
+        Los Angeles, CA 90014<br />
+        Phone: 949-435-7872<br />
+        Fax: 949-111-1111
+      </div>
+    </div>
+
+    <!--#include virtual="common/mainmenue.php"-->
+  <div id="content">
+    <div id="text">
+      <h2> Welcome to the Website of TicketzHub!</h2>
+      <p>Keep watching this space for our e-store. You will soon be able
+        to purchase any of our products on-line and have them shipped to
+        your home or business. We will also be interested to receive your
+        feedback for suggested improvements as our site develops.</p>
+
+      </div>
+    </div>
+    <!--#include virtual="common/footer.php"-->
+
   </body>
-</html>
+  </html>
