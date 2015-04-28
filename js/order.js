@@ -29,3 +29,12 @@ function validateDate(date)
 	}
 	return true;
 }
+
+function changePrice()
+{
+	var oFormObj = document.getElementById("orderForm");
+	var team = oFormObj.team.options[oFormObj.team.selectedIndex].text;
+
+	var currTicketPrice = document.getElementById("ticketPrice").innerHTML;
+	alert(currTicketPrice);
+}
