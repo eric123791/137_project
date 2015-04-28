@@ -59,7 +59,7 @@
 
           <tr valign = "top">
             <td>Number of Tickets: </td>
-            <td><input type = "text" name = "numTickets" /></td>
+            <td><input type = "number" name = "numTickets" min = "1" /></td>
           </tr>
           <tr>
             <td><input type = "submit" value = "Confirm" /></td>
