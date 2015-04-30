@@ -2,9 +2,10 @@
 <head>
   <title>TicketzHub</title>
   <link rel="stylesheet" type="text/css" href="css/default.css" />
+  <script type="text/javascript" src="js/rotate.js"></script>
 
 </head>
-<body>
+<body onload = "startRotation()">
   <div id = "page">
     <div id = "header">
       <!--#include virtual="common/logo.php"-->
@@ -16,7 +17,7 @@
       </div>
     </div>
 
-    <!--#include virtual="common/mainmenue.php"-->
+    <!--#include virtual="common/mainmenu.php"-->
 
     <div id="content">
       <div id="text">
@@ -29,17 +30,16 @@
           even if it is last minutes. We got you cover.
           We guarantee quick and hassle free transactions.
           Everything is simple here.
-          <br />
-          We sell all kinds of sports tickets:
+          <br /><br/>
+          We sell all kinds of sports tickets: <br/>
+        
+          NBA tickets<br/>
+          NFL tickets<br/>
+          MLB tickets<br/>
         </p>
-        <ul>
-          <li>NBA tickets</li>
-          <li>NFL tickets</li>
-          <li>MLB tickets</li>
-        </ul>
       </div>
       <div id="image">
-        <img src="images/tickets.jpg" alt="tickets" width="272px" height="154px" />
+        <img id="placeholder" src="" alt="tickets" width="280px" height="160px" />
       </div>
     </div>
 

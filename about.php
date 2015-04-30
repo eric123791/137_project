@@ -16,7 +16,7 @@
       </div>
     </div>
 
-    <!--#include virtual="common/mainmenue.php"-->
+    <!--#include virtual="common/mainmenu.php"-->
 
     <div id="content">
       <div id="text">
