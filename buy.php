@@ -5,9 +5,11 @@
   <title>Buy Now</title>
   <link rel="stylesheet" type="text/css" href="css/default.css" />
   <script type="text/javascript" src = "js/order.js"></script>
+  <script type="text/javascript" src="js/imageSelect.js"></script>
+
 </head>
 
-<body onload = "startRotation()">
+<body>
   <div id = "page">
     <?php
      include("common/welcome.php");
@@ -33,20 +35,20 @@
             <tr valign = "top">
               <td>Ticket Type: </td>
               <td>
-                <select name = "ticketType">
+                <select name = "ticketType" onchange = "changeLogo()">
                   <option>NBA</option>
                   <option>NFL</option>
                   <option>MLB</option>
                 </select>
               </td>
             </tr>
-            <?php
-             include("common/rotate.php");
-            ?>
+            <div id = "image">
+              <img id="logoplaceholder" src="images/image2.jpg" alt="teamlogo" width="280px" height="160px" />
+            </div>
             <tr valign = "top">
               <td>Teams: </td>
               <td>
-                <select name = "team" onchange = "changePrice()">
+                <select name = "team">
                   <option>A</option>
                   <option>B</option>
                   <option>C</option>
