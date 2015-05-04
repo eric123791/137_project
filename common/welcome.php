@@ -1,10 +1,9 @@
 <?php
-     include("common/logo.php");
+include("common/logo.php");
 ?>
 <div id="welcome">
   <h3>Welcome!</h3>
-  <?php
-  echo "<h5>It's ".date("l, F jS").".<br />";
-  echo "Our time is ".date('g:ia').".</h5>";
-  ?>
+  <form name="msgForm">
+    <input type="text" name="scrollingMsgBox" size="30">
+  </form>
 </div>
