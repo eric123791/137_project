@@ -29,7 +29,21 @@ div#mainMenu, #footer {
   height: 20px;
 }
 
-ul#mainLinks li, ul#footerLinks li{
+.mainLinks {
+padding: 0;
+margin: 0; 
+}
+
+/* for the always-visible menu options */
+.mainLinks li {
+padding: 0;
+margin: 0;
+float: left; 
+list-style: none;
+font: bold .7em Verdana;
+}
+
+ul#footerLinks li{
   float: left;
   width: 150px;
   padding: 5px 0;
@@ -49,35 +63,21 @@ ul#footerName li{
   text-align: center;
 }
 
-ul#mainLinks, ul#footerLinks {
+ul#footerLinks {
   height: 100%;
   list-style-type: none;
 }
 
-ul#mainLinks li a, ul#footerLinks li a {
+ul#footerLinks li a {
   color: #FFF;
   text-decoration: none;
   font-weight: bold;
   font-size: .7em;
 }
 
-ul#mainLinks li a:hover, ul#footerLinks li a:hover {
+ul#footerLinks li a:hover {
   padding: 5px 0;
   color: #000;
-}
-
-.mainLinks {
-padding: 0;
-margin: 0; 
-}
-
-/* for the always-visible menu options */
-.mainLinks li {
-padding: 0;
-margin: 0;
-float: left; 
-list-style: none;
-font: bold .7em Verdana;
 }
 
 .mainLinks li a {
@@ -122,6 +122,7 @@ color: #FFF;
 
 div#content {
   clear: both;
+  width: 855px;
 }
 
 div#text {
