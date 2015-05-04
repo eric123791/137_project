@@ -31,33 +31,17 @@
                   <li>
                     <a href="products.php">Products and Services</a>
                     <ul>
-                      <li><a href="featured.php">Featured Products</a></li>
+                      <li><a href="products.php">Featured Products</a></li>
                       <li><a href="services.php">Services</a></li>
-                      <li><a href="suppliers.php">Suppliers</a></li>
                     </ul>
                   </li>
-                  <li>
-                    <a href="yourhealth.php">Your Health</a>
-                    <ul>
-                      <li><a href="expert.php">Ask an Expert</a></li>
-                      <li><a href="tools.php">Tools &amp; Resources</a></li>
-                      <li><a href="links.php">Useful Links</a></li>
-                    </ul>
-                  </li>
+                  <li><a href="yourticket.php">Your Ticket</a></li>
+                  <li><a href="about.php">About us</a></li>
                 </ol>
               </td>
               <td valign="top">
-                <ol start="4">
-                  <li>
-                    <a href="about.php">About us</a>
-                    <ul>
-                      <li><a href="vision.php">Vision and Mission</a></li>
-                      <li><a href="locations.php">Our Locations</a></li>
-                      <li><a href="contact.php">Contact Us</a></li>
-                      <li><a href="employment.hphptml">Employment
-                      <li><a href="news.php">News Archive</a></li>
-                    </ul>
-                  </li>
+                <ol start="5">
+                    <li><a href="contact.php">About us</a></li>
                 </ol>
               </td>
             </tr>
@@ -65,8 +49,7 @@
         </td>
       </tr>
       <tr>
-        <td colspan="3">Nature's Source &copy; 2009 Porter Scobey and Pawan
-        Lingras</td>
+        <td colspan="3">TicketzHub &copy; 2015 Hua Hsin and Edmond Ye</td>
         <td><a href="contact.php">Contact Us</a></td>
         <td><a href="sitemap.php">Site Map</a></td>
       </tr>
