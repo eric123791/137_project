@@ -7,11 +7,16 @@
     <li>
     	<a href="products.php" onmouseover="show('m3')">Products and Services</a>
  		<div id="m3" onmouseover="show('m3')">
- 			<a href="products.php">Product Catalog</a>
+ 			<a href="products.php">Products</a>
  			<a href="services.php">Services</a>
  		</div>
     </li>
-    <li><a href="yourtickets.php" onmouseover="show('m4')">Your Tickets</a></li>
+    <li>
+    	<a href="yourtickets.php" onmouseover="show('m4')">Your Tickets</a>
+    	<div id="m4" onmouseover="show('m4')">
+ 			<a href="yoursales.php">Your Sales</a>
+ 		</div>
+    </li>
     <li><a href="about.php" onmouseover="show('m5')">About Us</a></li>
   </ul>
 </div>

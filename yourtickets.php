@@ -5,11 +5,10 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
   <title>TicketzHub - Your Tickets</title>
-  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" /> 
   <link rel="stylesheet" type="text/css" href="css/default.css" />
-  <script type="text/javascript" src="js/message.js"></script>
 </head>
-<body onload = "startRotation();scrollingMsg()">
+<body onload = "startRotation()">
   <div id = "page">
     <?php
      include("common/welcome.php");
@@ -17,16 +16,12 @@
     ?>
   <div id="content">
     <div id="text">
-      <p>This section will give you a chance to obtain information about
-        general health-related issues and concerns. We will ask one of our
-        on-site healthcare professionals to address your questions, and
-        each month we will post responses to those questions. We will also
-        host a repository of responses here, which you can browse to find
-        the health information most pertinent to you.</p>
-        <p>We will also have various web-based tools to help you assess
-          your health, along with some useful external links.</p>
-          <p>Please click one of the links at the left for further
-            information.</p>
+      <h1>Currently under Construction!</h1>
+
+      <p>
+        <h4>Sell your tickets here! (Coming Soon!)</h4>
+        Customers with extra tickets or tickets they don't need can sell their tickets with TicketzHub!
+      </p>
 
 
           </div>

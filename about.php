@@ -20,12 +20,12 @@
       <div id="text">
         <h3>About TicketzHub</h3>
         <p>Founded in 2015, TicketzHub was created as to serve those who
-          wnat to buy and sell any kind of sports tickets. Offering not only the
+          want to buy and sell (coming soon!) any kind of sports tickets. Offering not only the
           average quality seats in the house but also the highest quality also.
           TicketzHub takes great pride in helping people to have fun.
           lives.</p>
           <p>We offer an online servies that people can buy and sell tickets.
-            We ensoure the best qulitiy of servies possible to every customer.
+            We ensure the best quality of services possible to every customer.
             Each transaction is secure and ensure by our policy.</p>
             <p>TicketzHub regularly conducts independent product quality
               assurance testing to guarantee their clients are receiving the right

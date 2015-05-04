@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <title>TicketzHub</title>
-    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" /> 
   </head>
   <body>
     <table summary="Home Page">
@@ -35,13 +35,17 @@
                       <li><a href="services.php">Services</a></li>
                     </ul>
                   </li>
-                  <li><a href="yourticket.php">Your Ticket</a></li>
+                  <li><a href="yourtickets.php">Your Ticket</a>
+                    <ul>
+                      <li><a href="yoursales.php">Your Sales</a></li>
+                    </ul>
+                  </li>
                   <li><a href="about.php">About us</a></li>
                 </ol>
               </td>
               <td valign="top">
                 <ol start="5">
-                    <li><a href="contact.php">About us</a></li>
+                    <li><a href="contact.php">Contact us</a></li>
                 </ol>
               </td>
             </tr>
