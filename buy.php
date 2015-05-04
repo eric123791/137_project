@@ -4,6 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
   <title>Buy Now</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" /> 
   <link rel="stylesheet" type="text/css" href="css/default.css" />
   <script type="text/javascript" src = "js/order.js"></script>
   <script type="text/javascript" src="js/imageSelect.js"></script>
