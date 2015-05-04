@@ -99,3 +99,53 @@ div#logo {
 float: left;
 padding: 10px 0;
 }
+
+.mainLinks {
+padding: 0;
+margin: 0; 
+}
+
+/* for the always-visible menu options */
+.mainLinks li {
+padding: 0;
+margin: 0;
+float: left; 
+list-style: none;
+font: bold .7em Verdana;
+}
+
+.mainLinks li a {
+display: block; 
+width: 159px;
+padding: 4px 10px;
+margin: 0 1px 0 0;;
+background-color: #048018;
+color: #FFF;
+text-align: center;
+text-decoration: none;
+}
+
+.mainLinks li a:hover {background-color: #5FB361;}
+
+.mainLinks div {
+position: absolute; 
+background-color: #C5DCC9;
+border: 1px solid #048018;
+visibility: hidden; 
+}
+
+.mainLinks div a {
+display: block; 
+width: 156px;
+padding: 5px 10px;
+background-color: #C5DCC9;
+color: #048018;
+text-align: left;
+text-decoration: none;
+font: bold 90% Verdana;
+}
+
+.mainLinks div a:hover { /*To change color when the mouse hovers over a link*/
+background-color: #5FB361;
+color: #FFF;
+} 
