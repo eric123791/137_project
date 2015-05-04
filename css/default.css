@@ -71,6 +71,7 @@ div#content {
 
 div#text {
   float: left;
+  width: 50%;
   padding: 10px 0;
 }
 
@@ -79,7 +80,9 @@ div#text p {
 }
 
 div#image {
-  float: right;
+  float: left;
+  padding: 50px 0;
+  width: 50%;
   width: 310px;
 }
 div#welcome {

@@ -21,7 +21,7 @@
     <!--#include virtual="common/mainmenu.php"-->
 
     <div id = "content">
-      <form id = "orderForm" action = "scripts/processFeedBack.php" onsubmit = "retun validateOrder()">
+      <form id = "orderForm" action = "scripts/processBuy.php" method="post" onsubmit = "retun processOrder()">
         <fieldset>
           <table>
 
@@ -74,11 +74,6 @@
             <tr valign = "top">
               <td>Number of Tickets: </td>
               <td><input type = "number" name = "numTickets" min = "1" /></td>
-            </tr>
-
-            <tr valign = "top">
-              <td>Total Price: </td>
-              <td><p id = "totalPrice">$10</p></td>
             </tr>
             <tr>
               <td><input type = "submit" value = "Confirm" /></td>
