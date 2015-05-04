@@ -7,8 +7,8 @@
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
     <meta http-equiv="refresh" content="60" />
     <link rel="stylesheet" type="text/css" href="css/default.css" />
-    <script type="text/javascript" src="scripts/menu.js">
-    </script>
+    <script type="text/javascript" src="scripts/menu.js"> </script>
+    <script type="text/javascript" src="js/message.js"></script>
   </head>
   <body onload = "scrollingMsg()">
     <div id="page">
