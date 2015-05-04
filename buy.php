@@ -4,14 +4,15 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
   <title>Buy Now</title>
-  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" /> 
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
   <link rel="stylesheet" type="text/css" href="css/default.css" />
   <script type="text/javascript" src = "js/order.js"></script>
   <script type="text/javascript" src="js/imageSelect.js"></script>
+  <script type="text/javascript" src="js/message.js"></script>
 
 </head>
 
-<body>
+<body onload = "scrollingMsg()">
   <div id = "page">
     <?php
      include("common/welcome.php");
@@ -51,13 +52,13 @@
               <td>Teams: </td>
               <td>
                 <select name = "team">
-                  <option>A</option>
-                  <option>B</option>
-                  <option>C</option>
-                  <option>D</option>
-                  <option>E</option>
-                  <option>F</option>
-                  <option>G</option>
+                  <option>Manchester United</option>
+                  <option>New York Yankees</option>
+                  <option>Los Angeles Lakers</option>
+                  <option>Real Madrid</option>
+                  <option>Green Bay Packers</option>
+                  <option>Dallas Cowboys</option>
+                  <option>Michigan Wolverines</option>
                 </select>
               </td>
             </tr>

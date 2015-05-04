@@ -15,5 +15,5 @@ beginPos = beginPos + 1;
 if (beginPos > scrollMsg.length) {
 beginPos = 0
 }
-window.setTimeout("scrollingMsg()",100)
+window.setTimeout("scrollingMsg()",200)
 }

@@ -31,14 +31,14 @@ div#mainMenu, #footer {
 
 .mainLinks {
 padding: 0;
-margin: 0; 
+margin: 0;
 }
 
 /* for the always-visible menu options */
 .mainLinks li {
 padding: 0;
 margin: 0;
-float: left; 
+float: left;
 list-style: none;
 font: bold .7em Verdana;
 }
@@ -46,7 +46,7 @@ font: bold .7em Verdana;
 ul#footerLinks li{
   float: left;
   width: 150px;
-  padding: 5px 0;
+  padding: 2px 0;
   border-right: 1px solid #FFF;
   background-color: #808080;
   text-align: center;
@@ -81,7 +81,7 @@ ul#footerLinks li a:hover {
 }
 
 .mainLinks li a {
-display: block; 
+display: block;
 width: 150px;
 padding: 4px 10px;
 margin: 0 1px 0 0;;
@@ -97,14 +97,14 @@ color: #000;
 }
 
 .mainLinks div {
-position: absolute; 
+position: absolute;
 background-color: #808080;
 border: 1px solid #000;
-visibility: hidden; 
+visibility: hidden;
 }
 
 .mainLinks div a {
-display: block; 
+display: block;
 width: 150px;
 padding: 5px 10px;
 background-color: #808080;
@@ -117,7 +117,7 @@ font: bold 90% Verdana;
 .mainLinks div a:hover { /*To change color when the mouse hovers over a link*/
 background-color: #808080;
 color: #FFF;
-} 
+}
 
 
 div#content {
