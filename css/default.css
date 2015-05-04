@@ -53,7 +53,7 @@ ul#footerLinks li{
   text-align: center;
 }
 
-ul#footerName li{
+p#footerName {
   float: left;
   width:452px;
   font-size: 11px;
