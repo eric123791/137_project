@@ -3,7 +3,6 @@
   <title>TicketzHub</title>
   <link rel="stylesheet" type="text/css" href="css/default.css" />
   <script type="text/javascript" src="js/rotate.js"></script>
-  <script type="text/javascript" src="js/menu.js"></script>
 
 </head>
 <body onload = "startRotation()">

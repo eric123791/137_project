@@ -1,3 +1,5 @@
+<script type="text/javascript" src="js/menu.js"></script>
+
 <div id = "mainMenu" onmouseout = "hide()">
   <ul class="mainLinks">
     <li><a href="index.php" onmouseover="show('m1')">Home</a></li>
