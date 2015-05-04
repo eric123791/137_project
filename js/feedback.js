@@ -19,3 +19,49 @@ function processFeedback()
 		alert(name + ", " + email + ", " + fbType + " does not want a reply. They said " + comments);
 	}
 }
+
+function validateFeedBackForm()
+{
+    var contactFormObj = document.getElementById("feedbackForm");
+    var name = contactFormObj.name.value;
+    var email = contactFormObj.email.value;
+    var everythingOK = true;
+
+    if (!validateName(name))
+    {
+        alert("Error: Invalid Name.");
+        everythingOK = false;
+    }
+
+    if (!validateEmail(email))
+    {
+        alert("Error: Invalid e-mail address.");
+        everythingOK = false;
+    }
+
+    if (everythingOK)
+    {
+        alert("All the information looks good.\nThank you!");
+        return true;
+    }
+    else
+        return false;
+}
+
+function validateName(name)
+{
+    var p = name.search(/^[-'\w\s]+$/);
+    if (p == 0)
+        return true;
+    else
+        return false;
+}
+
+function validateEmail(address)
+{
+    var p = address.search(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})$/);
+    if (p == 0)
+        return true;
+    else
+        return false;
+}

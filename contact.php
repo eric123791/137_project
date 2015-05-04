@@ -21,7 +21,7 @@
     		<!--#include virtual="common/mainmenu.php"-->
 
 		     <div id = "content">
-				<form id = "feedbackForm" action = "" onsubmit = "processFeedback()">
+				<form id = "feedbackForm" action = "scripts/processFeedBack.php" method="post" onsubmit = "return validateFeedBackForm()" >
 					<fieldset>
 						<table>
 							<tr valign = "top">

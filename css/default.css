@@ -81,6 +81,18 @@ div#text p {
 div#image {
   float: right;
   width: 310px;
-  padding-top: 40px;
-  text-align: right;
+}
+div#welcome {
+float: left;
+margin-top: 1em;
+margin-left: 2em;
+}
+
+div#welcome h5 {
+margin-top: 1em;
+}
+
+div#logo {
+float: left;
+padding: 10px 0;
 }

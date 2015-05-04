@@ -7,18 +7,10 @@
 </head>
 <body onload = "startRotation()">
   <div id = "page">
-    <div id = "header">
-      <!--#include virtual="common/logo.php"-->
-      <div id="address">
-        2980 Hamill Avenue<br />
-        Los Angeles, CA 90014<br />
-        Phone: 949-435-7872<br />
-        Fax: 949-111-1111
-      </div>
-    </div>
-
-    <!--#include virtual="common/mainmenu.php"-->
-
+    <?php
+     include("common/welcome.php");
+     include("common/mainmenu.php");
+    ?>
     <div id="content">
       <div id="text">
         <h2> Welcome to the Website of TicketzHub!</h2>
@@ -32,7 +24,7 @@
           Everything is simple here.
           <br /><br/>
           We sell all kinds of sports tickets: <br/>
-        
+
           NBA tickets<br/>
           NFL tickets<br/>
           MLB tickets<br/>
