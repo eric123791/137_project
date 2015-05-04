@@ -81,7 +81,7 @@ div#text p {
 
 div#image {
   float: left;
-  padding: 50px 0;
+  padding: 10% 0;
   width: 50%;
   width: 310px;
 }
@@ -102,20 +102,20 @@ padding: 10px 0;
 
 .mainLinks {
 padding: 0;
-margin: 0; 
+margin: 0;
 }
 
 /* for the always-visible menu options */
 .mainLinks li {
 padding: 0;
 margin: 0;
-float: left; 
+float: left;
 list-style: none;
 font: bold .7em Verdana;
 }
 
 .mainLinks li a {
-display: block; 
+display: block;
 width: 159px;
 padding: 4px 10px;
 margin: 0 1px 0 0;;
@@ -128,14 +128,14 @@ text-decoration: none;
 .mainLinks li a:hover {background-color: #5FB361;}
 
 .mainLinks div {
-position: absolute; 
+position: absolute;
 background-color: #C5DCC9;
 border: 1px solid #048018;
-visibility: hidden; 
+visibility: hidden;
 }
 
 .mainLinks div a {
-display: block; 
+display: block;
 width: 156px;
 padding: 5px 10px;
 background-color: #C5DCC9;
@@ -148,4 +148,4 @@ font: bold 90% Verdana;
 .mainLinks div a:hover { /*To change color when the mouse hovers over a link*/
 background-color: #5FB361;
 color: #FFF;
-} 
+}

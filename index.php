@@ -30,12 +30,14 @@
           MLB tickets<br/>
         </p>
       </div>
-      <div id="image">
-        <img id="placeholder" src="" alt="tickets" width="280px" height="160px" />
-      </div>
+      <?php
+       include("common/rotate.php");
+      ?>
     </div>
 
-    <!--#include virtual="common/footer.php"-->
+    <?php
+     include("common/footer.php");
+    ?>
 
 
   </div>

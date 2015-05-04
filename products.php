@@ -20,8 +20,9 @@
 
       </div>
     </div>
-    <!--#include virtual="common/footer.php"-->
-
+    <?php
+     include("common/footer.php");
+    ?>
 
   </body>
   </html>
