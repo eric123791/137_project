@@ -9,16 +9,10 @@
 
 	<body>
 		<div id = "page">
-	      	<div id = "header">
-	        <!--#include virtual="common/logo.php"-->
-		        <div id="address">
-		          2980 Hamill Avenue<br />
-		          Los Angeles, CA 90014<br />
-		          Phone: 949-435-7872<br />
-		          Fax: 949-111-1111
-		        </div>
-      		</div>
-    		<!--#include virtual="common/mainmenu.php"-->
+			<?php
+			include("common/welcome.php");
+			include("common/mainmenu.php");
+			?>
 
 		     <div id = "content">
 				<form id = "feedbackForm" action = "scripts/processFeedBack.php" method="post" onsubmit = "return validateFeedBackForm()" >
@@ -66,7 +60,9 @@
 					</fieldset>
 				</form>
 
-				<!--#include virtual="common/footer.php"-->
+				<?php
+         include("common/footer.php");
+        ?>
 	      	</div>
 	    </div>
 	</body>
