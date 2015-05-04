@@ -156,3 +156,15 @@ div#logo {
 float: left;
 padding: 10px 0;
 }
+
+div#textOnly p {
+margin: 1em .2em .7em 0;
+}
+
+div#textOnly ol {
+margin: 20px 100px 20px;
+}
+
+div#textOnly ul {
+margin: 0 50px;
+}
