@@ -31,7 +31,7 @@ div#mainMenu, #footer {
 
 ul#mainLinks li, ul#footerLinks li{
   float: left;
-  width: 180px;
+  width: 150px;
   padding: 5px 0;
   border-right: 1px solid #FFF;
   background-color: #808080;
@@ -40,9 +40,10 @@ ul#mainLinks li, ul#footerLinks li{
 
 ul#footerName li{
   float: left;
+  width:452px;
   font-size: 11px;
   color: #FFF;
-  padding: 5px 100px;
+  padding: 5px 50px;
   border-right: 1px solid #FFF;
   background-color: #808080;
   text-align: center;
@@ -65,41 +66,6 @@ ul#mainLinks li a:hover, ul#footerLinks li a:hover {
   color: #000;
 }
 
-div#content {
-  clear: both;
-}
-
-div#text {
-  float: left;
-  width: 50%;
-  padding: 10px 0;
-}
-
-div#text p {
-  margin: 1em .2em .7em 0;
-}
-
-div#image {
-  float: left;
-  padding: 50px 0;
-  width: 50%;
-  width: 310px;
-}
-div#welcome {
-float: left;
-margin-top: 1em;
-margin-left: 2em;
-}
-
-div#welcome h5 {
-margin-top: 1em;
-}
-
-div#logo {
-float: left;
-padding: 10px 0;
-}
-
 .mainLinks {
 padding: 0;
 margin: 0; 
@@ -116,7 +82,7 @@ font: bold .7em Verdana;
 
 .mainLinks li a {
 display: block; 
-width: 180;
+width: 150px;
 padding: 4px 10px;
 margin: 0 1px 0 0;;
 background-color: #808080;
@@ -152,3 +118,39 @@ font: bold 90% Verdana;
 background-color: #808080;
 color: #FFF;
 } 
+
+
+div#content {
+  clear: both;
+}
+
+div#text {
+  float: left;
+  width: 50%;
+  padding: 10px 0;
+}
+
+div#text p {
+  margin: 1em .2em .7em 0;
+}
+
+div#image {
+  float: left;
+  padding: 50px 0;
+  width: 50%;
+  width: 310px;
+}
+div#welcome {
+float: left;
+margin-top: 1em;
+margin-left: 2em;
+}
+
+div#welcome h5 {
+margin-top: 1em;
+}
+
+div#logo {
+float: left;
+padding: 10px 0;
+}
