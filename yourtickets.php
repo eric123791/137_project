@@ -4,7 +4,7 @@
   <title>TicketzHub - Your Tickets</title>
   <link rel="stylesheet" type="text/css" href="css/default.css" />
 </head>
-<body>
+<body onload = "startRotation()">
   <div id = "page">
     <?php
      include("common/welcome.php");
@@ -25,6 +25,9 @@
 
 
           </div>
+          <?php
+           include("common/rotate.php");
+          ?>
         </div>
         <?php
          include("common/footer.php");

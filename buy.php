@@ -7,7 +7,7 @@
   <script type="text/javascript" src = "js/order.js"></script>
 </head>
 
-<body>
+<body onload = "startRotation()">
   <div id = "page">
     <?php
      include("common/welcome.php");
@@ -40,6 +40,9 @@
                 </select>
               </td>
             </tr>
+            <?php
+             include("common/rotate.php");
+            ?>
             <tr valign = "top">
               <td>Teams: </td>
               <td>

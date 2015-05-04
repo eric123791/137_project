@@ -7,7 +7,7 @@
 		<script type="text/javascript" src = "js/feedback.js"></script>
 	</head>
 
-	<body>
+	<body onload = "startRotation()">
 		<div id = "page">
 			<?php
 			include("common/welcome.php");
@@ -48,6 +48,9 @@
 							<tr valign = "top">
 								<td colspan="2"><textarea name = "comments" rows = "6" cols = "65"></textarea></td>
 							</tr>
+							<?php
+							include("common/rotate.php");
+							?>
 							<tr valign = "top">
 								<td>Check here if you would like a reply: </td>
 								<td><input type = "checkbox" name = "reply" value = "reply" /></td>

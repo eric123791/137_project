@@ -4,7 +4,7 @@
   <title>TicketzHub - About Us</title>
   <link rel="stylesheet" type="text/css" href="css/default.css" />
 </head>
-<body>
+<body onload = "startRotation()">
   <div id = "page">
     <?php
      include("common/welcome.php");
@@ -29,9 +29,9 @@
               provide the best quality of tickets there is to our customers.
               TicketzHub maintains ties with the university across USA</p>
             </div>
-            <div id="image">
-              <img src="images/tickets.jpg" alt="tickets" width="272px" height="154px" />
-            </div>
+            <?php
+             include("common/rotate.php");
+            ?>
             <?php
              include("common/footer.php");
             ?>

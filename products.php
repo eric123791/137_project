@@ -4,7 +4,7 @@
   <title>TicketzHub - Products</title>
   <link rel="stylesheet" type="text/css" href="css/default.css" />
 </head>
-<body>
+<body onload = "startRotation()">
   <div id = "page">
     <?php
      include("common/welcome.php");
@@ -19,6 +19,9 @@
         the links at the left to find out more about each option.</p>
 
       </div>
+      <?php
+       include("common/rotate.php");
+      ?>
     </div>
     <?php
      include("common/footer.php");
