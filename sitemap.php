@@ -1,62 +1,48 @@
-<!-- sitemap.html -->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
- "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!-- sitemap.php -->
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
-    <title>TicketzHub</title>
-    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" /> 
+    <title>Nature's Source - Canada's largest specialty vitamin store</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <meta http-equiv="refresh" content="60" />
+    <link rel="stylesheet" type="text/css" href="css/default.css" />
+    <script type="text/javascript" src="scripts/menu.js">
+    </script>
   </head>
-  <body>
-    <table summary="Home Page">
-      <tr>
-        <td colspan="5">
-          <img src="images/logo.png" alt="TicketzHub" />
-        </td>
-      </tr>
-      <tr>
-        <td width="20%"><a href="index.php">Home</a></td>
-        <td width="20%"><a href="buy.php">Buy Now</a></td>
-        <td width="20%"><a href="products.php">Products and Services</a></td>
-        <td width="20%"><a href="yourtickets.php">Your Tickets</a></td>
-        <td width="20%"><a href="about.php">About Us</a></td>
-      </tr>
-      <tr>
-        <td colspan="5">
-          <table border="1" width="100%" summary="Page List">
-            <tr>
-              <td valign="top">
+  <body onload = "scrollingMsg()">
+    <div id="page">
+      <?php
+       include("common/welcome.php");
+       include("common/mainmenu.php");
+      ?>
+      <div id="content">
+        <div id="textOnly">
                 <ol>
+                  <li><a href="index.php">Home</a></li>
                   <li><a href="buy.php">Buy Now</a></li>
                   <li>
-                    <a href="products.php">Products and Services</a>
+                    Products and Services
                     <ul>
-                      <li><a href="products.php">Featured Products</a></li>
+                      <li><a href="products.php">Product Catalog</a></li>
                       <li><a href="services.php">Services</a></li>
                     </ul>
                   </li>
-                  <li><a href="yourtickets.php">Your Ticket</a>
+                  <li>
+                    Contact Us
                     <ul>
-                      <li><a href="yoursales.php">Your Sales</a></li>
+                      <li><a href="contact.php">Give us feedback</a></li>
                     </ul>
                   </li>
-                  <li><a href="about.php">About us</a></li>
+                  <li>
+                    <a href="sitemap.php">Site Map</a>
+                  </li>
                 </ol>
-              </td>
-              <td valign="top">
-                <ol start="5">
-                    <li><a href="contact.php">Contact us</a></li>
-                </ol>
-              </td>
-            </tr>
-          </table>
-        </td>
-      </tr>
-      <tr>
-        <td colspan="3">TicketzHub &copy; 2015 Hua Hsin and Edmond Ye</td>
-        <td><a href="contact.php">Contact Us</a></td>
-        <td><a href="sitemap.php">Site Map</a></td>
-      </tr>
-    </table>
+        </div>
+      </div>
+      <?php
+      include("common/footer.php");
+      ?>
+    </div>
   </body>
 </html>
