@@ -1,7 +1,7 @@
 /* default.css for the simple one-page Nature's Source web site */
 * {
-  padding: 0;
-  margin: 0;
+  padding: 0px;
+  margin: 0px;
 }
 
 body {
@@ -10,6 +10,7 @@ body {
   margin-right: auto;
   font-family: Verdana, Arial, Helvetica, sans-serif;
   font-size: 1em;
+  background-color: #5CBDFF;
 }
 
 div#page {
@@ -136,10 +137,10 @@ div#text p {
 }
 
 div#image {
+  vertical-align: top;
   float: left;
   padding: 50px 0;
-  width: 50%;
-  width: 310px;
+
 }
 div#welcome {
 float: left;

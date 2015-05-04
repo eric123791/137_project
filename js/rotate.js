@@ -5,7 +5,7 @@ var prefix = "images/image";
 var imageArray = new Array(4);
 for (i = 0; i < imageArray.length; i++)
 {
-	imageArray[i] = prefix + (i+1) + ".jpg";
+	imageArray[i] = prefix + (i+1) + ".png";
 }
 
 var imageCounter = 0;

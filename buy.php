@@ -46,7 +46,7 @@
               </td>
             </tr>
             <div id = "image">
-              <img id="logoplaceholder" src="images/image2.jpg" alt="teamlogo" width="280px" height="160px" />
+              <img id="logoplaceholder" src="images/image2.png" alt="teamlogo" width="280px" height="160px" />
             </div>
             <tr valign = "top">
               <td>Teams: </td>
