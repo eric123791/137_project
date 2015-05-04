@@ -1,5 +1,5 @@
 <?php
-//processFeedback.php
+//processBuy.php
 
 //Construct the message to be sent to the business
 $messageToBusiness =
@@ -10,6 +10,7 @@ $messageToBusiness =
     "Dates: " .$_POST[date]."\r\n".
     "Team: " .$_POST[team]."\r\n".
     "Number of Tickets: " .$_POST[numTickets]."\r\n".
+    "Total Price $" . 10 * $_POST[numTickets]."\r\n".
 
 //Send the e-mail feedback message to the business (but here, to the webbook site)
 $headerToBusiness = "From: $_POST[email]\r\n";

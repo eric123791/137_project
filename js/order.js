@@ -8,15 +8,38 @@ function processOrder()
 	var team = oFormObj.team.options[oFormObj.team.selectedIndex].text;
 	var date = oFormObj.date.value;
 	var numTickets = oFormObj.numTickets.value;
+	var everythingOK = true;
 
-	if(validateDate(date))
+	if(!validateDate(date))
 	{
 		alert(numTickets + " for " + ticketType + ", " + team + " on " + date);
+		everythingOK = false;
+	}
+
+	if (!validateName(name))
+	{
+			alert("Error: Invalid Name.");
+			everythingOK = false;
+	}
+
+	if (!validateEmail(email))
+	{
+			alert("Error: Invalid e-mail address.");
+			everythingOK = false;
+	}
+	if(isNaN(numTickets))
+	{
+		alert("Error: Invalid Number of Tickets.");
+		everythingOK = false;
+	}
+
+	if (everythingOK)
+	{
+			alert("All the information looks good.\nThank you!");
+			return true;
 	}
 	else
-	{
-		alert("Invalid Date!");
-	}
+			return false;
 }
 
 function validateDate(date)
@@ -28,6 +51,24 @@ function validateDate(date)
 		return false;
 	}
 	return true;
+}
+
+function validateName(name)
+{
+    var p = name.search(/^[-'\w\s]+$/);
+    if (p == 0)
+        return true;
+    else
+        return false;
+}
+
+function validateEmail(address)
+{
+    var p = address.search(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})$/);
+    if (p == 0)
+        return true;
+    else
+        return false;
 }
 
 function changePrice()

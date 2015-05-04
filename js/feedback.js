@@ -3,7 +3,6 @@
 function processFeedback()
 {
 	var fbFormObj = document.getElementById("feedbackForm");
-
 	var name = fbFormObj.name.value;
 	var email = fbFormObj.email.value;
 	var fbType = fbFormObj.type.options[fbFormObj.type.selectedIndex].text;
