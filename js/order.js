@@ -3,7 +3,8 @@
 function processOrder()
 {
 	var oFormObj = document.getElementById("orderForm");
-
+    var name = oFormObj.name.value;
+    var email = oFormObj.email.value;
 	var ticketType = oFormObj.ticketType.options[oFormObj.ticketType.selectedIndex].text;
 	var team = oFormObj.team.options[oFormObj.team.selectedIndex].text;
 	var date = oFormObj.date.value;
@@ -12,7 +13,7 @@ function processOrder()
 
 	if(!validateDate(date))
 	{
-		alert(numTickets + " for " + ticketType + ", " + team + " on " + date);
+		alert("Error: Invalid Date.");
 		everythingOK = false;
 	}
 

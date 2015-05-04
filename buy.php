@@ -15,7 +15,7 @@
     ?>
 
     <div id = "content">
-      <form id = "orderForm" action = "scripts/processBuy.php" method="post" onsubmit = "retun processOrder()">
+      <form id = "orderForm" action = "scripts/processBuy.php" method="post" onsubmit = "return processOrder()">
         <fieldset>
           <table>
 
